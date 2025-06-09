@@ -18,7 +18,7 @@ Projeto para exibir tela de itens e adiciona-los ao carrinho
 - ✅ Tela de navegação com 3 opções
 - ✅ Listagem de itens com filtro por nome e categoria
 - ✅ Tela com detalhe do item selecionado para adicionar ao carrinho
-- ✅ Suporte em modo retrato e paisagem
+- ✅ Suporte em modo retrato e paisagem (responsividade)
 - 🌙 Suporte a tema claro/escuro
 
 
