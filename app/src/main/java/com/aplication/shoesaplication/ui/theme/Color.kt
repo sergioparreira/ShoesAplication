@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.ui.theme
+package com.aplication.shoesaplication.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

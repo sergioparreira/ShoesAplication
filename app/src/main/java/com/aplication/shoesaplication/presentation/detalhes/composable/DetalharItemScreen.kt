@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.detalhes.composable
+package com.aplication.shoesaplication.presentation.detalhes.composable
 
 import android.content.res.Configuration
 import androidx.compose.foundation.BorderStroke
@@ -37,15 +37,15 @@ import androidx.compose.ui.unit.dp
 import com.aplication.shoesaplication.R
 
 import androidx.compose.ui.unit.sp
-import com.aplication.maxcomposeshoes.presentation.detalhes.intent.DetalheItemUiIntent
-import com.aplication.maxcomposeshoes.presentation.detalhes.state.DetalheItemUiState
-import com.aplication.maxcomposeshoes.ui.theme.ItemSelecionado
-import com.aplication.maxcomposeshoes.ui.theme.LocalExtraColors
-import com.aplication.maxcomposeshoes.ui.theme.amareloStart
-import com.aplication.maxcomposeshoes.ui.theme.blackText
-import com.aplication.maxcomposeshoes.ui.theme.branco
-import com.aplication.maxcomposeshoes.ui.theme.cinzaAvalicao
-import com.aplication.maxcomposeshoes.ui.theme.cinzaCoracao
+import com.aplication.shoesaplication.presentation.detalhes.intent.DetalheItemUiIntent
+import com.aplication.shoesaplication.presentation.detalhes.state.DetalheItemUiState
+import com.aplication.shoesaplication.ui.theme.ItemSelecionado
+import com.aplication.shoesaplication.ui.theme.LocalExtraColors
+import com.aplication.shoesaplication.ui.theme.amareloStart
+import com.aplication.shoesaplication.ui.theme.blackText
+import com.aplication.shoesaplication.ui.theme.branco
+import com.aplication.shoesaplication.ui.theme.cinzaAvalicao
+import com.aplication.shoesaplication.ui.theme.cinzaCoracao
 
 @Composable
 fun DetalharItemScreen(

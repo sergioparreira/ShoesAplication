@@ -1,6 +1,6 @@
-package com.aplication.maxcomposeshoes.presentation.detalhes.state
+package com.aplication.shoesaplication.presentation.detalhes.state
 
-import com.aplication.maxcomposeshoes.domain.model.Item
+import com.aplication.shoesaplication.domain.model.Item
 
 
 sealed class DetalheItemUiState {

@@ -1,9 +1,9 @@
-package com.aplication.maxcomposeshoes.data
+package com.aplication.shoesaplication.data
 
-import com.aplication.maxcomposeshoes.domain.enums.TipoItemEnum
-import com.aplication.maxcomposeshoes.domain.model.Item
-import com.aplication.maxcomposeshoes.domain.model.ItemFiltro
-import com.aplication.maxcomposeshoes.domain.repository.ItemRepository
+import com.aplication.shoesaplication.domain.enums.TipoItemEnum
+import com.aplication.shoesaplication.domain.model.Item
+import com.aplication.shoesaplication.domain.model.ItemFiltro
+import com.aplication.shoesaplication.domain.repository.ItemRepository
 import com.aplication.shoesaplication.R
 
 class ItemRepositoryImpl : ItemRepository {

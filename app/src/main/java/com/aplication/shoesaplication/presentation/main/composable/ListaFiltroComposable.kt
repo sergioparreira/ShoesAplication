@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.composable
+package com.aplication.shoesaplication.presentation.main.composable
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
@@ -22,12 +22,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.aplication.shoesaplication.R
-import com.aplication.maxcomposeshoes.domain.model.ItemFiltro
-import com.aplication.maxcomposeshoes.presentation.main.intent.ItemListaUiIntent
-import com.aplication.maxcomposeshoes.ui.theme.ItemSelecionado
-import com.aplication.maxcomposeshoes.ui.theme.bordarFiltro
-import com.aplication.maxcomposeshoes.ui.theme.branco
-import com.aplication.maxcomposeshoes.ui.theme.textColor
+import com.aplication.shoesaplication.domain.model.ItemFiltro
+import com.aplication.shoesaplication.presentation.main.intent.ItemListaUiIntent
+import com.aplication.shoesaplication.ui.theme.ItemSelecionado
+import com.aplication.shoesaplication.ui.theme.bordarFiltro
+import com.aplication.shoesaplication.ui.theme.branco
+import com.aplication.shoesaplication.ui.theme.textColor
 
 @Composable
 fun ListaFiltroComposable(

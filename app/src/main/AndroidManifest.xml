@@ -14,7 +14,7 @@
         android:theme="@style/Theme.ShoesAplication"
         tools:targetApi="31">
         <activity
-            android:name="com.aplication.maxcomposeshoes.presentation.main.activity.MainScreen"
+            android:name=".presentation.main.activity.MainScreen"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ShoesAplication">
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.aplication.maxcomposeshoes.presentation.detalhes.activity.DetalheScreen"
+            android:name=".presentation.detalhes.activity.DetalheScreen"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ShoesAplication">

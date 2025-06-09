@@ -1,6 +1,6 @@
-package com.aplication.maxcomposeshoes.domain.model
+package com.aplication.shoesaplication.domain.model
 
-import com.aplication.maxcomposeshoes.domain.enums.TipoItemEnum
+import com.aplication.shoesaplication.domain.enums.TipoItemEnum
 
 data class ItemFiltro(
     val tipoFiltro: TipoItemEnum,

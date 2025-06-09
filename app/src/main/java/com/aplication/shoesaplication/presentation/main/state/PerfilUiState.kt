@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.state
+package com.aplication.shoesaplication.presentation.main.state
 
 
 sealed class PerfilUiState {

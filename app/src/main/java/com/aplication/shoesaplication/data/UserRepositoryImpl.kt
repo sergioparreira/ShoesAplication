@@ -1,6 +1,6 @@
-package com.aplication.maxcomposeshoes.data
+package com.aplication.shoesaplication.data
 
-import com.aplication.maxcomposeshoes.domain.repository.UserRepository
+import com.aplication.shoesaplication.domain.repository.UserRepository
 
 class UserRepositoryImpl : UserRepository {
 

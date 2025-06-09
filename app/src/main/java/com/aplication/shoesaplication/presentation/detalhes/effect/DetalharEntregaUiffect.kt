@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.detalhes.effect
+package com.aplication.shoesaplication.presentation.detalhes.effect
 
 sealed class DetalharEntregaUiffect {
 

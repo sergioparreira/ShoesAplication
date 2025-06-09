@@ -1,7 +1,4 @@
-package com.aplication.maxcomposeshoes.domain.repository
-
-import com.aplication.maxcomposeshoes.domain.model.Item
-import com.aplication.maxcomposeshoes.domain.model.ItemFiltro
+package com.aplication.shoesaplication.domain.repository
 
 interface UserRepository {
 

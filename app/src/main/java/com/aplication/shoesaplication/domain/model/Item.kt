@@ -1,7 +1,7 @@
-package com.aplication.maxcomposeshoes.domain.model
+package com.aplication.shoesaplication.domain.model
 
 import androidx.annotation.DrawableRes
-import com.aplication.maxcomposeshoes.domain.enums.TipoItemEnum
+import com.aplication.shoesaplication.domain.enums.TipoItemEnum
 
 data class Item(
     val idItem: Long,

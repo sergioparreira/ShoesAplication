@@ -1,7 +1,7 @@
-package com.aplication.maxcomposeshoes.di
+package com.aplication.shoesaplication.di
 
-import com.aplication.maxcomposeshoes.presentation.detalhes.DetalheItemViewModel
-import com.aplication.maxcomposeshoes.presentation.main.MainScreenViewModel
+import com.aplication.shoesaplication.presentation.detalhes.DetalheItemViewModel
+import com.aplication.shoesaplication.presentation.main.MainScreenViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

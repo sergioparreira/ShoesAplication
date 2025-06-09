@@ -1,9 +1,8 @@
 package com.aplication.shoesaplication
 
 import android.app.Application
-import com.aplication.maxcomposeshoes.di.repositoryModule
-import com.aplication.maxcomposeshoes.di.viewModelModule
-import org.koin.core.KoinApplication
+import com.aplication.shoesaplication.di.repositoryModule
+import com.aplication.shoesaplication.di.viewModelModule
 import org.koin.core.context.GlobalContext.startKoin
 
 class App : Application() {

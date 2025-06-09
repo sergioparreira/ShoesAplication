@@ -1,12 +1,12 @@
-package com.aplication.maxcomposeshoes.presentation.detalhes
+package com.aplication.shoesaplication.presentation.detalhes
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.aplication.maxcomposeshoes.domain.model.Item
-import com.aplication.maxcomposeshoes.domain.repository.ItemRepository
-import com.aplication.maxcomposeshoes.presentation.detalhes.effect.DetalharEntregaUiffect
-import com.aplication.maxcomposeshoes.presentation.detalhes.intent.DetalheItemUiIntent
-import com.aplication.maxcomposeshoes.presentation.detalhes.state.DetalheItemUiState
+import com.aplication.shoesaplication.domain.model.Item
+import com.aplication.shoesaplication.domain.repository.ItemRepository
+import com.aplication.shoesaplication.presentation.detalhes.effect.DetalharEntregaUiffect
+import com.aplication.shoesaplication.presentation.detalhes.intent.DetalheItemUiIntent
+import com.aplication.shoesaplication.presentation.detalhes.state.DetalheItemUiState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow

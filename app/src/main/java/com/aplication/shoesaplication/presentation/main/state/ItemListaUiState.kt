@@ -1,7 +1,7 @@
-package com.aplication.maxcomposeshoes.presentation.main.state
+package com.aplication.shoesaplication.presentation.main.state
 
-import com.aplication.maxcomposeshoes.domain.model.Item
-import com.aplication.maxcomposeshoes.domain.model.ItemFiltro
+import com.aplication.shoesaplication.domain.model.Item
+import com.aplication.shoesaplication.domain.model.ItemFiltro
 
 sealed class ItemListaUiState {
 

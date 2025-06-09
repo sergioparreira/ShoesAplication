@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.composable
+package com.aplication.shoesaplication.presentation.main.composable
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.PaddingValues
@@ -12,15 +12,15 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.aplication.shoesaplication.domain.enums.OpcaoNavegacao
-import com.aplication.maxcomposeshoes.presentation.composable.ErrorScreen
-import com.aplication.maxcomposeshoes.presentation.composable.LoadingScreen
-import com.aplication.maxcomposeshoes.presentation.main.intent.ItemListaUiIntent
-import com.aplication.maxcomposeshoes.presentation.main.intent.MainScreenUiIntent
-import com.aplication.maxcomposeshoes.presentation.main.state.ItemCarrinhoUiState
-import com.aplication.maxcomposeshoes.presentation.main.state.ItemListaUiState
-import com.aplication.maxcomposeshoes.presentation.main.state.MainSreenState
-import com.aplication.maxcomposeshoes.presentation.main.state.PerfilUiState
-import com.aplication.maxcomposeshoes.ui.theme.LocalExtraColors
+import com.aplication.shoesaplication.presentation.composable.ErrorScreen
+import com.aplication.shoesaplication.presentation.composable.LoadingScreen
+import com.aplication.shoesaplication.presentation.main.intent.ItemListaUiIntent
+import com.aplication.shoesaplication.presentation.main.intent.MainScreenUiIntent
+import com.aplication.shoesaplication.presentation.main.state.ItemCarrinhoUiState
+import com.aplication.shoesaplication.presentation.main.state.ItemListaUiState
+import com.aplication.shoesaplication.presentation.main.state.MainSreenState
+import com.aplication.shoesaplication.presentation.main.state.PerfilUiState
+import com.aplication.shoesaplication.ui.theme.LocalExtraColors
 
 
 @Composable

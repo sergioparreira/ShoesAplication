@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.composable
+package com.aplication.shoesaplication.presentation.main.composable
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -19,12 +19,12 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.aplication.shoesaplication.domain.enums.OpcaoNavegacao
-import com.aplication.maxcomposeshoes.presentation.main.intent.MainScreenUiIntent
-import com.aplication.maxcomposeshoes.ui.theme.ItemNaoSelecionado
-import com.aplication.maxcomposeshoes.ui.theme.ItemSelecionado
-import com.aplication.maxcomposeshoes.ui.theme.LocalExtraColors
-import com.aplication.maxcomposeshoes.ui.theme.dividerColor
-import com.aplication.maxcomposeshoes.ui.theme.transparente
+import com.aplication.shoesaplication.presentation.main.intent.MainScreenUiIntent
+import com.aplication.shoesaplication.ui.theme.ItemNaoSelecionado
+import com.aplication.shoesaplication.ui.theme.ItemSelecionado
+import com.aplication.shoesaplication.ui.theme.LocalExtraColors
+import com.aplication.shoesaplication.ui.theme.dividerColor
+import com.aplication.shoesaplication.ui.theme.transparente
 
 
 @Composable

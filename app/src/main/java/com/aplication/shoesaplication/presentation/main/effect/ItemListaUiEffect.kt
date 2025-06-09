@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.effect
+package com.aplication.shoesaplication.presentation.main.effect
 
 sealed class ItemListaUiEffect {
 

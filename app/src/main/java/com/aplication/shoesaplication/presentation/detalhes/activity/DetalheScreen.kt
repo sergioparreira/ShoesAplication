@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.detalhes.activity
+package com.aplication.shoesaplication.presentation.detalhes.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,11 +11,10 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import com.aplication.maxcomposeshoes.presentation.detalhes.DetalheItemViewModel
-import com.aplication.maxcomposeshoes.presentation.detalhes.composable.OnDetalharItemScreenState
-import com.aplication.maxcomposeshoes.presentation.detalhes.effect.DetalharEntregaUiffect
-import com.aplication.maxcomposeshoes.presentation.detalhes.intent.DetalheItemUiIntent
-import com.aplication.maxcomposeshoes.ui.theme.MaxComposeShoesTheme
+import com.aplication.shoesaplication.presentation.detalhes.DetalheItemViewModel
+import com.aplication.shoesaplication.presentation.detalhes.composable.OnDetalharItemScreenState
+import com.aplication.shoesaplication.presentation.detalhes.effect.DetalharEntregaUiffect
+import com.aplication.shoesaplication.ui.theme.MaxShoesTheme
 import org.koin.androidx.compose.koinViewModel
 
 class DetalheScreen : ComponentActivity() {
@@ -28,7 +27,7 @@ class DetalheScreen : ComponentActivity() {
 
             RegistrarUiEffect(mViewModel)
 
-            MaxComposeShoesTheme {
+            MaxShoesTheme {
                 OnDetalharItemScreenState(
                     modifier = Modifier.fillMaxSize(),
                     uiStateDetalheEnt,

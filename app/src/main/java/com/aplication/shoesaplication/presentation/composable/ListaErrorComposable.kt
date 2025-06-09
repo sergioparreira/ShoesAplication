@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.composable
+package com.aplication.shoesaplication.presentation.composable
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

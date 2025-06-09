@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.composable
+package com.aplication.shoesaplication.presentation.main.composable
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -31,16 +31,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.aplication.shoesaplication.R
-import com.aplication.maxcomposeshoes.domain.enums.TipoItemEnum
-import com.aplication.maxcomposeshoes.presentation.composable.ErrorScreen
-import com.aplication.maxcomposeshoes.presentation.composable.LoadingScreen
-import com.aplication.maxcomposeshoes.presentation.main.intent.ItemListaUiIntent
-import com.aplication.maxcomposeshoes.presentation.main.intent.ItemListaUiIntent.OnSearchQueryChange
-import com.aplication.maxcomposeshoes.presentation.main.intent.MainScreenUiIntent
-import com.aplication.maxcomposeshoes.presentation.main.state.ItemListaUiState
-import com.aplication.maxcomposeshoes.ui.theme.blackText
-import com.aplication.maxcomposeshoes.ui.theme.bordaColorSearch
-import com.aplication.maxcomposeshoes.ui.theme.unfocusedColorSearch
+import com.aplication.shoesaplication.domain.enums.TipoItemEnum
+import com.aplication.shoesaplication.presentation.composable.ErrorScreen
+import com.aplication.shoesaplication.presentation.composable.LoadingScreen
+import com.aplication.shoesaplication.presentation.main.intent.ItemListaUiIntent
+import com.aplication.shoesaplication.presentation.main.intent.ItemListaUiIntent.OnSearchQueryChange
+import com.aplication.shoesaplication.presentation.main.intent.MainScreenUiIntent
+import com.aplication.shoesaplication.presentation.main.state.ItemListaUiState
+import com.aplication.shoesaplication.ui.theme.blackText
+import com.aplication.shoesaplication.ui.theme.bordaColorSearch
+import com.aplication.shoesaplication.ui.theme.unfocusedColorSearch
 
 
 @Composable
@@ -149,7 +149,7 @@ fun ListaComposable(
                         )
                     }
 
-                    ListaFiltroComposable(uiState.listaFiltro, onIntentItemLista,isLandscape)
+                    ListaFiltroComposable(uiState.listaFiltro, onIntentItemLista, isLandscape)
                 }
 
                 if (uiState.listaItemsFiltrada.isEmpty()) {

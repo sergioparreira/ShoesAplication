@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.detalhes.intent
+package com.aplication.shoesaplication.presentation.detalhes.intent
 
 sealed class DetalheItemUiIntent {
 

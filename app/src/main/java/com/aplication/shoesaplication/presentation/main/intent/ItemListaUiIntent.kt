@@ -1,6 +1,6 @@
-package com.aplication.maxcomposeshoes.presentation.main.intent
+package com.aplication.shoesaplication.presentation.main.intent
 
-import com.aplication.maxcomposeshoes.domain.enums.TipoItemEnum
+import com.aplication.shoesaplication.domain.enums.TipoItemEnum
 
 
 sealed class ItemListaUiIntent {

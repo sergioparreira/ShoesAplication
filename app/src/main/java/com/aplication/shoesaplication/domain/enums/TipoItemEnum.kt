@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.domain.enums
+package com.aplication.shoesaplication.domain.enums
 
 enum class TipoItemEnum(val codigo: String, val descricao: String) {
     TODOS("TO", "Todos"),

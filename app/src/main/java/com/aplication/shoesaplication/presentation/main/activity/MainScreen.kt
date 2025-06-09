@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.activity
+package com.aplication.shoesaplication.presentation.main.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,12 +14,12 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.navigation.compose.rememberNavController
 import com.aplication.shoesaplication.domain.enums.OpcaoNavegacao
-import com.aplication.maxcomposeshoes.presentation.detalhes.activity.DetalheScreen
-import com.aplication.maxcomposeshoes.presentation.main.MainScreenViewModel
-import com.aplication.maxcomposeshoes.presentation.main.composable.MainScreenComposable
-import com.aplication.maxcomposeshoes.presentation.main.effect.ItemListaUiEffect
-import com.aplication.maxcomposeshoes.presentation.main.intent.MainScreenUiIntent
-import com.aplication.maxcomposeshoes.ui.theme.MaxComposeShoesTheme
+import com.aplication.shoesaplication.presentation.detalhes.activity.DetalheScreen
+import com.aplication.shoesaplication.presentation.main.MainScreenViewModel
+import com.aplication.shoesaplication.presentation.main.composable.MainScreenComposable
+import com.aplication.shoesaplication.presentation.main.effect.ItemListaUiEffect
+import com.aplication.shoesaplication.presentation.main.intent.MainScreenUiIntent
+import com.aplication.shoesaplication.ui.theme.MaxShoesTheme
 import org.koin.androidx.compose.koinViewModel
 
 class MainScreen : ComponentActivity() {
@@ -42,7 +42,7 @@ class MainScreen : ComponentActivity() {
 
             val navController = rememberNavController()
 
-            MaxComposeShoesTheme {
+            MaxShoesTheme {
                     MainScreenComposable(
                         mainScreenUiStateFlow,
                         uiStateItemLista,

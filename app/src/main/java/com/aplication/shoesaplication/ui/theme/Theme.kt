@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.ui.theme
+package com.aplication.shoesaplication.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -37,7 +37,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun MaxComposeShoesTheme(
+fun MaxShoesTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit

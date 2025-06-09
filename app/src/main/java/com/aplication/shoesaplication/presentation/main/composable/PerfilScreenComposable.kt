@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.composable
+package com.aplication.shoesaplication.presentation.main.composable
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -15,10 +15,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.aplication.shoesaplication.R
-import com.aplication.maxcomposeshoes.presentation.composable.ErrorScreen
-import com.aplication.maxcomposeshoes.presentation.composable.LoadingScreen
-import com.aplication.maxcomposeshoes.presentation.main.intent.MainScreenUiIntent
-import com.aplication.maxcomposeshoes.presentation.main.state.PerfilUiState
+import com.aplication.shoesaplication.presentation.composable.ErrorScreen
+import com.aplication.shoesaplication.presentation.composable.LoadingScreen
+import com.aplication.shoesaplication.presentation.main.intent.MainScreenUiIntent
+import com.aplication.shoesaplication.presentation.main.state.PerfilUiState
 
 @Composable
 fun PerfilScreenComposable(

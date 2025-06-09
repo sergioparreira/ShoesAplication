@@ -1,4 +1,4 @@
-package com.aplication.maxcomposeshoes.presentation.main.intent
+package com.aplication.shoesaplication.presentation.main.intent
 
 import com.aplication.shoesaplication.domain.enums.OpcaoNavegacao
 
