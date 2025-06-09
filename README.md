@@ -27,4 +27,5 @@ Projeto para exibir tela de itens e adiciona-los ao carrinho
 1. Clone o repositório:
    ```bash
    git clone https://github.com/sergioparreira/ShoesAplication
+2. Android Studio Meerkat Feature Drop | 2024.3.2
 
