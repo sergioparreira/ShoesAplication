@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShoesAplication</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="title_activity_detalhe">DetalheActivity</string>
+</resources>
