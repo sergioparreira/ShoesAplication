@@ -26,5 +26,5 @@ Projeto para exibir tela de itens e adiciona-los ao carrinho
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/sergioparreira/MaxComposeShoes.git
+   git clone https://github.com/sergioparreira/ShoesAplication
 
