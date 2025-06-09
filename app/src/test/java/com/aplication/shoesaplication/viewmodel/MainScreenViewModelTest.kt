@@ -65,34 +65,6 @@ class MainScreenViewModelTestt : KoinTest {
         assertEquals(filtrosEsperados, result.getOrNull())
     }
 
-    @Test
-    fun `getListaFiltro deve retornar apenas filtros ativos`() = runTest {
-        val filtrosEsperados = listOf(
-            ItemFiltro(TipoItemEnum.TENIS, true),
-            ItemFiltro(TipoItemEnum.BOTAS, true),
-            ItemFiltro(TipoItemEnum.CHUTEIRA, false),
-            ItemFiltro(TipoItemEnum.SAPATENIS, false),
-        )
-        whenever(viewModel.itemRepository.getListaFiltro()).thenReturn(filtrosEsperados)
-
-        val result = viewModel.getListaFiltro()
-
-        assertTrue(result.isSuccess)
-        assertEquals(filtrosEsperados, result.getOrNull())
-    }
-
-    @Test
-    fun `getListaFiltro deve retornar lista vazia se nenhum filtro estiver ativo`() = runTest {
-        val filtrosEsperados = TipoItemEnum.entries.map {
-            ItemFiltro(it, ativo = false)
-        }
-        whenever(viewModel.itemRepository.getListaFiltro()).thenReturn(filtrosEsperados)
-
-        val result = viewModel.getListaFiltro()
-
-        assertTrue(result.isSuccess)
-        assertEquals(filtrosEsperados, result.getOrNull())
-    }
 
     @Test
     fun `getListaFiltro deve retornar lista vazia se repositório retornar vazio`() = runTest {
